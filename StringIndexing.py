@@ -1,6 +1,8 @@
 #Index of first character - 0 
 #Index of last character - (length - 1)
 
+##string[start:end:step]
+
 
 string="Robert Pattinson"
 
@@ -38,6 +40,56 @@ print(slice)
 
 
 #==============================================
+
+##Basic Slicing 
+
+text = "Hello, Python!"
+
+# Extract "Hello"
+print(text[0:5]) # Output: Hello
+
+# Extract "Python"
+print(text[7:13]) # Output: Python
+
+# Extract "Python!" (from index 7 to the end)
+print(text[7:]) # Output: Python!
+
+
+# Extract "Hello" using negative indices
+print(text[:-9])
+
+#====================================================
+
+'''Advanced Slicing--Double check the Logic'''
+
+text2 = "abcdefg"
+
+# Extract every second character
+print(text2[::2])  # Output: aceg
+
+# Extract every second character in reverse
+print(text2[::-2]) # Output: geca
+
+#This prints reverse from the -2indexing
+print(text2[:-2])
+
+##Reverse strings
+
+text3 = "Python"
+
+# Reverse the entire string
+print(text3[::-1])  # Output: nohtyP
+
+
+##Example 4: Negative Indices
+
+text4 = "Hello, Python!"
+
+# Extract "Python" using negative indices
+print(text4[-7:-1])
+
+# Extract "Python!" using negative indices
+print(text4[-7:])
 
 
 
