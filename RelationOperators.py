@@ -42,5 +42,10 @@ print(test3)
 
 #4.Example: Mixing different types in comparisons
 test4= 5 > "3"
-print(test4)
+print(test4) #--Output: TypeError
+
+#5.Example: Comparing a string with a number
+test5 ="42" == 42
+print(test5)
+
 
