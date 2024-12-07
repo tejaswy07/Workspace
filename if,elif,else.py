@@ -10,14 +10,13 @@ else:
 
 ##Write a program that takes a number as input and prints "Even" if it's an even number, and "Odd" if it's an odd number.
 
-input=int(input("Enter the Number : "))
+Check=int(input("Enter the Number : "))
 
-if input * 2:
-    print(f"This is the Even Number {input} ")
-elif input % 2 ==0:
-    print(f"This is the odd Number {input} ")
+
+if Check % 2 ==0:
+    print(f"This is the even Number {Check} ")
 else:
-    print(f"The condition terminates here")
+    print(f"This is odd number")
 
 
 ######################################################
@@ -46,23 +45,11 @@ Name=input("Enter the Name : ")
 vowel=["a","e","i","o","u"]
 
 
-contains_vowel = any(char in vowel for char in Name) 
-contains_consonant = any(char.isalpha() and char not in vowel for char in Name)
 
-#print(contains_vowel)
-#print(contains_consonant)
-
-# Output based on the checks
-if contains_vowel and contains_consonant:
-    print("The given name has both vowels and consonants.")
-elif contains_vowel:
-    print("The given name has only vowels.")
-elif contains_consonant:
-    print("The given name has only consonants.")
+if Name in vowel:
+     print("vowel")
 else:
-    print("The given name does not contain valid alphabetic characters.")      
-
- 
+     print("Not vowel")    
     
     
     
