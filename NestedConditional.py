@@ -29,4 +29,37 @@ if a > 5:
     else:
         print("a is greater than 5 but b is less than 5")
 else:
-    print("a is not greater than 5")    
+    print("a is not greater than 5") 
+    
+########################################################      
+
+#3.Check if a given number num is positive, negative, or zero. 
+
+Number=int(input("Enter the Number : "))
+
+if Number==0:
+    print("Number is Zero")
+elif Number>0:
+        print("Number is Positive")
+else:
+        print("Number is Negative") 
+
+
+#############################################################
+
+#4.Determine the type of a given number `num`: even or odd, and whether it is positive or negative.
+
+check = int(input("Enter the number: "))
+
+if check > 0:
+    if check % 2 == 0:
+        print("The number is Positive and it is Even")
+    else:
+        print("The number is Positive and it is Odd")
+elif check < 0:
+    if check % 2 == 0:
+        print("The number is Negative and it is Even")
+    else:
+        print("The number is Negative and it is Odd")
+else:
+    print("The number is Zero")
