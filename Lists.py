@@ -55,7 +55,7 @@ if FindName in Names:
 else:
     print("Not Found")
     
-#ReversedList
+#6.ReversedList
 
 number1 = [1, 2, 3, 4, 5]
 ReversedNum=[]
@@ -66,6 +66,17 @@ for i in reversed(number1):
     
 print(ReversedNum)
 
+
+#7.Remove Duplicates from a List:
+
+TestNumbers=[1,2,3,3,4,5,5,6,6,7]
+uniquenum=[]
+
+for i in TestNumbers:
+    if i not in uniquenum:
+        uniquenum.append(i)
+print(uniquenum)        
+    
  
 
    
