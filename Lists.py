@@ -14,7 +14,7 @@ test=["a","g","c","b"]  #Sorting Elements
 test.sort()
 print(test)
 
-#Write a Python program that takes a list of numbers [1, 2, 3, 4, 5] and prints each number on a new line.
+#1.Write a Python program that takes a list of numbers [1, 2, 3, 4, 5] and prints each number on a new line.
 
 Numbers=[1,2,3,4,5]
 
@@ -48,12 +48,23 @@ print(Newresult)
 #5 Write a Python program that takes a list of names ["Alice", "Bob", "Charlie"] and checks if a given name (e.g., "Alice") is present in the list. Print "Name found" if the name is in the list; otherwise, print "Name not found".
     
 Names = ["Alice", "Bob", "Charlie"]
-Name="Alice"
+FindName="Alice"
 
-if Name in Names:
+if FindName in Names:
     print("Name is Found")
 else:
     print("Not Found")
+    
+#ReversedList
+
+number1 = [1, 2, 3, 4, 5]
+ReversedNum=[]
+
+
+for i in reversed(number1):
+    ReversedNum.append(i)
+    
+print(ReversedNum)
 
  
 
