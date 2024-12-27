@@ -15,21 +15,24 @@ print(name.replace("t","a"))
 print(name.strip())#strip(): Removes leading and trailing whitespaces from the string.
 
 
+
+#1.
+
 Check="New,string"              
 string=Check.split(",") #Splits the string into a list of substrings based on a delimiter.
 print(Check)
 
-
+#2.
 string2=Check.startswith("New") #Checks if the string starts with a specific prefix.outputTrue/False
 print(string2)
 
-
+#3.
 string3=Check.endswith("string") #Checks if the string ends with a specific suffix
 print(string3)
 
-
+#4.
 Input=input("Enter the input : ")
-
 Test=Input.replace("Python","java")
-
 print(Test)
+
+
