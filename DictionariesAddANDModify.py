@@ -70,16 +70,7 @@ inventory.pop("sugar") # Remove a key-value pair from the dictionary
 print(inventory)
 
 
-#Question: Create a function called add_stock that takes a dictionary stock and an item item_name (string) as input and adds 1 to the value of the corresponding key in the dictionary. Return the modified dictionary.
-#Expected Input: stock = {"apple": 10, "banana": 15}, item_name = "banana"
-#Expected Output: {"apple": 10, "banana": 16}
 
-stock = {"apple": 10, "banana": 15} 
-item_name = "banana"
-stock["banana"]=16
-add_stock=stock
-
-print(stock)
 
 
 
